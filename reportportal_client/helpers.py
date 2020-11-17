@@ -13,6 +13,8 @@ limitations under the License.
 """
 import logging
 import uuid
+from platform import machine, processor, system
+
 from pkg_resources import DistributionNotFound, get_distribution
 from platform import machine, processor, system
 
